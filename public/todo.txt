@@ -1,0 +1,7 @@
+-> Replace Select File and Clear Playlist
+buttons with Add and Delete buttons.
+
+-> Make the buttons work.
+
+-> Add backend server to make player play
+different file formats.
