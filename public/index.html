@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Local Video Player</h1>
+  </header>
+  <div class="content">
+    <div class="video-container">
+      <div class="video-player">
+        <video id="videoPlayer" controls></video>
+      </div>
+      <div class="video-list">
+        <div class="player-controls file-input">
+          <input type="file" id="fileInput" class="fileInput" accept="video/*" multiple>
+          <label for="fileInput">Select File</label>
+        </div>
+        <div class="playlist">
+          <ul id="playlist">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="player-controls volume">
+      <label for="volume">Volume:</label>
+    <input type="range" id="volume" min="0" max="2" step="0.1" value="1">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
