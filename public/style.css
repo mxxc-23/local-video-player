@@ -97,6 +97,18 @@ video {
   font-weight: 500;
 }
 
+.clearBtn {
+  background-color: rgba(74, 92, 106);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 25px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: small;
+  font-weight: 500;
+  border: 0;
+}
+
 .playlist {
   height: 100%;
   overflow-y: scroll;
